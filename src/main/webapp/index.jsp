@@ -4,7 +4,7 @@
 
 <h3>WelCome to Jenkins!</h3>
 
-<p>Hello Team, This Jenkins Tutorial Seriese. Hi, I am your instructor Anshul Chauhan</p>>
+<p>Hello Team, This Jenkins Tutorial Seriese. Hi, I am your instructor Erwin Bastardo</p>>
 
 </body>
 </html>
