@@ -24,7 +24,7 @@ pipeline {
 
         stage ('Deploy to Production'){
             steps{
-                timeout (time: 5, unit:'Day'){
+                timeout (time: 5, unit:'DAYS'){
                     input message: 'Approve PRODUCTION Deployment?'
                 }
 
@@ -36,7 +36,7 @@ pipeline {
                     echo 'Deployment on PRODUCTION is Sucessful'
                 }
 
-                faillure{
+                failure{
                     echo 'Deployment Failure on PRODUCTION'
                 }
             }
